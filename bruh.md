@@ -10,4 +10,4 @@ The king, unfortunately his hairline aint the goat
 **Michael Jordan**
 Might be the actual goat
 
-![Image](![image](https://user-images.githubusercontent.com/122497056/211948100-24b3ae2e-d106-4ebf-a874-502546739541.png)
+(![image](https://user-images.githubusercontent.com/122497056/211948100-24b3ae2e-d106-4ebf-a874-502546739541.png)
