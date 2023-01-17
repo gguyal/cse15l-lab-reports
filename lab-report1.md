@@ -7,14 +7,14 @@ Use this link to search for your course-specific account for CSE 15L:
 
 [Link](https://sdacs.ucsd.edu/~icc/index.php)
 
-This is the weboage that should pop up:
-![Image](https://ibb.co/Z2sddDN)
+This is the webpage that should pop up:
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064759642921631844/Screen_Shot_2023-01-16_at_6.03.30_PM.png)
 
 - You will then input your UCSD username, as well as your pid underneath account lookup as shown
   - Then you will click the blue button that says "submit"
 
 A new page should open like the following image:
-![Image](https://ibb.co/pnBqySr)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064759718419116132/Screen_Shot_2023-01-16_at_6.11.13_PM.png)
 
 - Make sure that all the information is correct to you
   - Then on your page you will have a greyed out box under "additional accounts" (where the image above points at) that has "cse15L" followed by the current quarter and year as well as your own personal last few digits
@@ -23,12 +23,12 @@ A new page should open like the following image:
 - There will be blue text that says "change your password" click on it and we will proceed to changing your account password
 
 This is the following webpage that should open up:
-![Image](https://ibb.co/nrYB001)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064759800581337108/Screen_Shot_2023-01-16_at_6.27.15_PM.png)
 
 - You will then have to retype username and pid once again under the following inputs, then click the submit button
 
 This is the new webpage that should pop up, except without the annotations in red:
-![Image](https://ibb.co/FwSfPLT)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064759859033165845/Screen_Shot_2023-01-16_at_6.30.35_PM.png)
 
 - Enter your UCSD account password underneath "current password"
 - Then for your new password, make sure that it is complicated with a combination of different types of characters
@@ -43,20 +43,20 @@ This is the new webpage that should pop up, except without the annotations in re
 *Note: This step may be skipped if you have previously downloaded vscode on your computer*
 
 Open the link to download vscode below:
-[Link](https://ibb.co/JtZScQb)
+[Link](https://code.visualstudio.com/)
 
 This is the webpage that should pop up:
-![Image](https://ibb.co/JtZScQb)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064759923407343686/Screen_Shot_2023-01-16_at_6.54.51_PM.png)
 
 - VSCode can be downloaded amongst the operating systems such as: Linux, MacOS, or Windows
 - To choose your specific operating system, click the blue drop down arrow, and click on your designated operating system
 
-![Image](https://ibb.co/TR8Cpw5)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064759964402458634/Screen_Shot_2023-01-16_at_6.58.05_PM.png)
 
 - You will then be prompted with instructions to download vscode on your computer, make sure to follow them correctly
 
 After you have successfully installed vscode, you may open it up and this is how it should look like (it may appear different on your screen as I have used vscode previously):
-![Image](https://ibb.co/Wy4DKLF)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064760005498257498/Screen_Shot_2023-01-16_at_7.00.15_PM.png)
 
 ## Step 3: Remotely connecting
 
@@ -70,13 +70,13 @@ Now we will try sshing in the terminal through vscode
 - In order to open a terminal you can do either of the following (Ctrl or Command + , or click on the "terminal" tab on the top and then click "new terminal" )
 - After you click new terminal this should pop up on your screen: 
 
-![Image](https://ibb.co/d6xG085)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064760040428404776/Screen_Shot_2023-01-16_at_7.18.47_PM.png)
 
 -You will then type the following command inside of the terminal and then click enter: (**your course-specific account username** *can be found in step 1 if you forgot* **@ieng6.ucsd.edu**)
 
 This is an example of what yours may look like:
 
-![Image](https://ibb.co/LpxWcYH)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064760130610139246/Screen_Shot_2023-01-16_at_7.24.19_PM.png)
 
 - If it is your first time connecting to this server the terminal will then return text, asking "Are you sure you want to continue connecting?"
   - Simply type yes in the terminal and then hit enter
@@ -87,7 +87,7 @@ This is an example of what yours may look like:
   - If you typed in the password incorrectly, then it will re-return "Password: " again for you to type it in again
 - Once you successfully typed your password in, the following text will be returned: 
 
-![Image](https://ibb.co/KyWgqCw)
+![Image](https://cdn.discordapp.com/attachments/787224374381117460/1064760282569789440/Screen_Shot_2023-01-11_at_3.52.10_PM.png)
 
 ## Step 4: Running commands
 
