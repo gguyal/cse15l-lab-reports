@@ -108,5 +108,20 @@ Try creating a new directory with these steps!
   
 - mkdir "new directory name"
 - cd "new directory name"
+ 
+Let's run through the commands of making a new directory!
+  
+![Image](https://media.discordapp.net/attachments/787224374381117460/1069719587844788264/Screen_Shot_2023-01-30_at_12.42.34_PM.png?width=1880&height=285)
+  
+- On the first line of code, we use the command "mkdir" followed by the directory name we are trying to create, in this case the line shows a directory being made called "newdirectory"
+- On the next line we then use the command "ls" which prints out a list of the current files in your current directory.
+  - As you can see, we have multiples files such as 'chickken' 'perl5''wavelet' and our newly created directory 'mkdir'
+- The next line we are using the command 'cd' followed by our new directory name 'newdirectory'
+  - This changes our current directory to our new one
+- Next we use ls once again, however nothing is printed out and this is because this a new directoryb we made, and there wouldn't have been any files unless we have created them
+- In order to check for sure though, if we are in our newdirectory, we use the command "pwd" which prints out our current working directory
+  - As you can see the result shows that we are in our newdirectory, as the path ends with "newdirectory"
   
 You can exit out of the server doing the commands (Ctrl + D or typing exit)
+  
+
