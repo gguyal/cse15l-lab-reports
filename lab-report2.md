@@ -38,17 +38,23 @@ The bug that we are going to be investigating is within the reverseInPlace metho
 **Failure Inducing:**
 
 ```
+@Test
+public void testReverseInPlace(){
     int[] input1 = {0, 1, 2, 3, };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3 ,2 ,1 ,0}, (input1));
+}
 ```
 
 **Does not induce Failure:**
 
 ```
+@Test
+public void testReverseInPlace(){
     int[] input1 = { 3 };
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{ 3 }, input1);
+}
 ```
 
 **Failure Inducing Symptom:**
@@ -83,7 +89,7 @@ static void reverseInPlace(int[] arr) {
 What the before code did, was simply traverse through an array, and then make the current index, equal to the mirrored index on the other side of the list.
 To explain, take the array ( 0, 1, 4, 2, 9 ) The code would take the first index ( 0 ) and make it the last index ( 9 ), if we were on the second index ( 1 ), 
 we would make it the third index ( 2 ). This results in the product of a mirrored list, keeping the values on the left half of the index. So with our example 
-the resulted array would be ( 0, 1, 4, 1, 9 ).
+the resulted array would be ( 9, 1, 4, 1, 9 ).
 
 With our new code, we have to make a temporary int value to store an index value before it is changed. We traverse the array, however we traverse it up to the 
 half-way point of the array using arr.length/2. We then take the current index point and store it into the temp int value. Similar to our old code, we store the 
